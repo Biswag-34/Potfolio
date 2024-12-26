@@ -34,11 +34,11 @@
           <h3>Data Analytics</h3>
           <h3>Product Management</h3>
         </div>
-        <a href="#" class="btn">Download Resume</a>
+        <a href="#" class="btn" onclick="downloadPDF()">Download Resume</a>
         <div class="media-icons">
           <a href="https://www.linkedin.com/in/biswajit-goswami-8233632a7"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/Biswag-34"><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-facebook"></i></a>
         </div>
       </div>
     </section>
@@ -50,7 +50,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="images/img1.jpg" alt="">
+            <img src="images/img1.png" alt="">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -239,7 +239,7 @@
           </div>
         </div>
         <div class="row" >
-          <form class="contact-form reveal" name="submit-to-google-sheet">
+          <form class="contact-form reveal">
             <h3>Send Message</h3>
             <div class="input-box">
               <input type="text" name="" value="" placeholder="Name">
@@ -251,8 +251,9 @@
               <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
             </div>
             <div class="input-box">
-              <input type="submit" class="send-btn" value="Send">
+              <input onclick="click()" type="submit"  class="send-btn" value="Send">
             </div>
+            <div id="result"></div>
           </form>
         </div>
       </div>

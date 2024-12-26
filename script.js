@@ -60,3 +60,16 @@ function reveal(){
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
+/*---- resume download-----*/
+  function downloadPDF() {
+    const link = document.createElement('a');
+    link.href = 'images/Biswajit@cv.pdf';  // Path to your PDF file
+    link.download = 'Resume.pdf';         // Desired file name for the download
+    document.body.appendChild(link);     // Add the link to the DOM
+    link.click();                         // Simulate a click to download the file
+    document.body.removeChild(link);     // Remove the link from the DOM
+}
+ 
+function click() {
+  window.alert("Massage submited");
+}

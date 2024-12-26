@@ -262,12 +262,14 @@ body{
 padding: 10;
 }
 
-h3  {
+/*h3  {
+  display: flex;
 font-size: 25px;
 margin-top: 10px ;
 margin-bottom: 5px;
 width: 50%;
-}
+justify-content:flex-end;
+} */
 
 
 .skills .content .col-left .content-title{
